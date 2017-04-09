@@ -1,0 +1,125 @@
+body {
+  font-family: Tahoma;
+  font-size: 14px;
+}
+
+header {
+  height: 90px;
+}
+
+header h1 {
+  float: left;
+  margin-top: 28px;
+  font-size: 2.8em;
+}
+
+footer {
+  font-size: 80%; /*0.8em*/
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+.service {
+  width: 32%;
+  margin-left: 1%;
+  float: left;
+  font-weight: bold;
+  background-color: #00BFF3;
+  text-align: center;
+}
+
+#services {
+  border: 3px dotted #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.service h2 {
+    text-transform: lowercase;
+    color: white;
+}
+
+.blue-link a:link, .blue-link a:visited, .blue-link a:hover, .blue-link a:active {
+  color: #00BFF3;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+#content {
+  width: 50%;
+}
+
+#client-comments, #features-project {
+  width: 50%;
+}
+
+#presentantion h2 {
+  font-size: 3em;
+  color: #333;
+}
+
+#presentantion h3 {
+  color: #BBBBBB;
+  font-size: 2em;
+}
+
+.menu {
+  float: right;
+  margin-right: 80px;
+  margin-top: 50px;
+}
+
+.menu li{
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 0.8em;
+}
+
+.menu li::after {
+  content: "--";
+  color: #fff;
+  margin-left: 10px;
+}
+
+.menu li:last-child:after {
+  content: "";
+}
+
+#main-menu {
+  color: #fff;
+}
+
+.detail {
+  color: #00BFF3; 
+}
+
+#top-wrapper {
+  width: 100%;
+  background-color: #333;
+}
+
+#top {
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#all {
+    width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
