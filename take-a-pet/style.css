@@ -5,7 +5,14 @@
 
 h2 {
     font-family: 'Chelsea Market', Georgia, serif;
-    font-size: 1.2em;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Josefin Slab', Georgia, serif;
+    font-size: 1.3em;
+    margin-bottom: 10px;
 }
 
 header {
@@ -56,30 +63,35 @@ header h1 {
     padding: 40px;
 }
 
-#apresentacao h2 {
-    font-size: 2em;
-    margin-bottom: 8px;
+.mainpicture {
+    width: 1100px;
+}
+
+.seta {
+    float: left;
+    margin-right: 5px;
 }
 
 .missao {
     text-align: center;
-    margin-bottom: 8px;
-}
-
-#cadastro h2 {
-    margin-bottom: 8px;
 }
 
 #cadastro {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+#cadastro h2 {
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .bt {
     border-radius: 16px;
-    font-family: Courier New;
+    font-family: 'Chelsea Market', Georgia, serif;
     color: #000000;
     font-size: 18px;
-    background: #ff6666;
+    background: #FF6766;
     padding: 15px 18px 12px 17px;
     text-decoration: none; 
     margin-bottom: 8px;
@@ -87,12 +99,69 @@ header h1 {
 }
 
 #historias h3{
-    font-size: 1em;
-    font-style: italic;
+    font-size: 1.3em;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 32px;
+    margin-right: 3px;
+    font-family: 'Josefin Slab', Georgia, serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+  font-family: 'Josefin Slab', Georgia, serif;
 }
 
 .pets-adotados {
-
+    width: 260px;
+    display: inline-block;
+    padding-right: 5px;
 }
 
+.pets-adotados img {
+    width: 260px;
+    height: 195px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
 
+.pets-adotados .auctor {
+    font-weight: bold;
+    color: #FF6766;
+    text-align: center;
+}
+
+.pets-adotados .txt {
+    font-size: 1em;
+    text-align: center;
+}
+
+.historias-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#frase-reflex {
+    width: 600px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 30px auto 10px auto;    
+}
+
+#frase-reflex p {
+    font-family: 'Chelsea Market', Georgia, serif;
+}
+
+footer {
+    padding: 20px 40px;
+    background: #000;
+    color: #777;
+    font-size: 0.7em;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
