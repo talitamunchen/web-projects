@@ -157,11 +157,54 @@ footer {
     background: #000;
     color: #777;
     font-size: 0.7em;
-    line-height: 1.5;
-    font-weight: 300;
     text-align: center;
 }
 
 footer p {
     margin-bottom: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.principal-cont {
+  min-height: 100%;
+  margin-bottom: -7px;
+}
+
+
+/*como-funcional styles*/
+
+.frase-apoio {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.casos {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#casos {
+    margin-left: 40px;
+}
+
+#casos h3 {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 32px;
+    margin-right: 3px;
+    font-family: 'Josefin Slab', Georgia, serif;
+    font-weight: bold;
+}
+
+#casos img {
+    margin-top: 15px;
+    width: 50px;
+}
+
+#caso-um {
+    display: block;
 }
