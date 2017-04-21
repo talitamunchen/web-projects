@@ -49,9 +49,13 @@
 }
 
 .cad-pet {
-	width: 550px;
+	width: 700px;
     padding-right: 5px;
 	font-family: 'Josefin Slab', Georgia, serif;
     font-size: 1.3em;
 	line-height: 2.2;
+}
+
+.cad-pet textarea{
+    width: 500px;
 }

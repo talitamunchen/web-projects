@@ -9,7 +9,6 @@
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href="style2.css" rel="stylesheet" type="text/css">
 	</head>
-	
 	<body>
 		<div id="posicao-relativa">
             <header>
@@ -20,16 +19,14 @@
 						<li><a href="main-page.html">Home</a></li>
 						<li><a href="como-funciona.html">Como funciona</a></li>
 						<li><a href="quero-adotar.html">Quero adotar</a></li>
-						<li><a href="cadastrar-pet.html">Quero doar</a></li>
+						<li><a href="cadastrar-usuario.html">Quero doar</a></li>
 					</ul>
                 </nav>
             </header>
         </div>	
-		
 		<div id="principal">
 			<img class="seta" src="./pictures/seta.png" alt="seta">
 			<h2>CADASTRO PET</h2>
-			<!-- <form action="http://www.meusite.com/script.php" method="get"> -->
 			<form method="post" enctype="multipart/form-data" action="upload.asp">
 				<div class="cad-pet">
 					<label for="chk_E_C">Espécie: </label>
@@ -92,7 +89,7 @@
 					<input type="radio" name="sexo" id="rd_Apadri" value="Apadri" />Apadrinhamento
 					<input type="radio" name="sexo" id="rd_Indiferente" value="Indiferente" />Indiferente
 				</div>
-				<div class="cad-pet">	
+				<div class="cad-pet">
 					<label for ="info-pet">Mais informações sobre o Pet: </label>
 					<textarea name="info-pet" id="info-pet" rows="5" cols="40">Mais informações sobre o Pet</textarea>
 				</div>
@@ -117,18 +114,15 @@
 					<label for ="desc-area">Descrição do local onde o Pet foi encontrado: </label>
 					<textarea name="desc-area" id="desc-area" rows="5" cols="40">Mais informações sobre o local</textarea>
 				</div>	
-				
 				<input type="file" size="40" name="foto">
-				
 				<div class ="botoes">
 					<input class="bt" type="reset" value ="Redefinir" />
 					<input class="bt" type="submit" value ="Cadastrar Pet" />
 				</div>
-				
-				</form>
+			</form>
 		</div>
 		<footer>
-			<p>Copyright &copy; 2017 ~ Take a pet ~ All Rights Reserved</p>
+			<p>Copyright &copy; 2017 ~ Take a pet ~ Talita e Yris ~ All Rights Reserved</p>
 		</footer>
 	</body>
 </html>
